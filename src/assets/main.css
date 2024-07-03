@@ -1,0 +1,13 @@
+@import './base.css';
+
+:root {
+  --backdrop-color-desktop: #f0f2f1;
+
+  --plain-font: 'Inter', sans-serif;
+
+  --side-menu-desktop-width: 25%;
+}
+
+* {
+  transition: all 0.15s ease-out;
+}
