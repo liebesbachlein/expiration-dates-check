@@ -16,9 +16,9 @@
 </template>
 
 <script setup lang="ts">
-import { categories, keyDatesMap } from '../data/data'
-import type { EventType } from '../data/event.data'
-import { getInfo, isDueIn } from '../data/time.methods'
+import { categories, keyDatesMap } from '../components/data/data'
+import type { EventType } from '../components/data/event.data'
+import { getInfo, isDueIn } from '../components/data/time.methods'
 
 type EventDueType = {
   routeName: string

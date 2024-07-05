@@ -32,10 +32,10 @@
 
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
-import type { MenuPositionType } from './data/menu-position.data'
-import type { MenuItemType } from './data/menu-item.data'
+import type { MenuPositionType } from './components/data/menu-position.data'
+import type { MenuItemType } from './components/data/menu-item.data'
 import NavigationDashboard from './components/NavigationDashboard.vue'
-import { categories, keyDatesMap } from './data/data'
+import { categories, keyDatesMap } from './components/data/data'
 import NotFoundView from '../not-found/NotFoundView.vue'
 import { useErrorStore } from '@/stores/router'
 
