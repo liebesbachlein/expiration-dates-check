@@ -54,8 +54,8 @@
 
 <script setup lang="ts">
 import { computed, type PropType } from 'vue'
-import type { CategoryType } from './data/category.data'
-import type { MenuPositionType } from './data/menu-position.data'
+import type { CategoryType } from '../data/category.data'
+import type { MenuPositionType } from '../data/menu-position.data'
 import { useRoute } from 'vue-router'
 
 const props = defineProps({

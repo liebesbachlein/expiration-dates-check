@@ -15,8 +15,8 @@
 
 <script setup lang="ts">
 import { onMounted, type PropType } from 'vue'
-import type { EventType } from './data/event.data'
-import { getInfo, getDateString } from './data/time.methods'
+import type { EventType } from '../data/event.data'
+import { getInfo, getDateString } from '../data/time.methods'
 
 const props = defineProps({
   id: { type: String, required: true },

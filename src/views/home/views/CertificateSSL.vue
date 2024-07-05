@@ -18,7 +18,7 @@
 <script setup lang="ts">
 import StatusBar from '../components/StatusBar.vue'
 import { type PropType } from 'vue'
-import type { EventType } from '../components/data/event.data'
+import type { EventType } from '../data/event.data'
 
 const props = defineProps({
   eventData: { type: Array as PropType<EventType[]> | undefined, required: true },
