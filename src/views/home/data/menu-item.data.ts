@@ -4,4 +4,5 @@ export type MenuItemType = {
   menuItemName: string
   routeName: string
   component: Component
+  subMenuItems: string[]
 }

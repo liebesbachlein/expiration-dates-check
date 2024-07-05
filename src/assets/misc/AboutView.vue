@@ -1,5 +1,6 @@
 <template>
-  <form @submit.prevent="handleSubmit">
+  <div />
+  <!--<form @submit.prevent="handleSubmit">
     <label>Имя</label>
     <input id="name" :readonly="isSuccess === true" v-model="data.name" type="text" />
     <br />
@@ -7,11 +8,11 @@
     <input id="birth_date" :readonly="isSuccess === true" v-model="data.birth_date" type="date" />
     <br />
     <input :disabled="isSuccess !== null" type="submit" :value="getSubmitValue()" />
-  </form>
+  </form>-->
 </template>
 
 <script setup lang="ts">
-import type { SaveItemType } from '@/models/item.data'
+/*import type { SaveItemType } from '@/models/item.data'
 import { SERVER_URL } from '@/var'
 import axios from 'axios'
 import { ref } from 'vue'
@@ -51,7 +52,7 @@ const handleSubmit = function (): void {
         isSuccess.value = false
       })
   }
-}
+}*/
 </script>
 
 <style></style>
